@@ -1,5 +1,5 @@
 <?
-$db = mysqli_connect('localhost', 'z9831609_sn', '6*BJsR72', 'z9831609_sn');
+$db = mysqli_connect('');
 
 $time = time();
 if($val = $_POST['val']){
