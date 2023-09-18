@@ -1,5 +1,5 @@
 <?
-$db = mysqli_connect('localhost', 'z9831609_sn', '6*BJsR72', 'z9831609_sn');
+$db = mysqli_connect('');
 
 if($ofer=$_POST['ofer']){
     $sql = $db->query("SELECT `ofer` FROM `counters` WHERE `ofer`=$ofer");
